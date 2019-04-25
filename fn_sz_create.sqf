@@ -52,6 +52,7 @@ _marker_symbol setMarkerBrush "Solid";
 _marker_symbol setMarkerColor "ColorRed";
 
 hint "Du hast eine Sperrzone erstellt!";
+spawn life_fnc_sz_msg;
 
 NL_Sperrzone_Pos = Nil;
 onMapSingleClick '';
