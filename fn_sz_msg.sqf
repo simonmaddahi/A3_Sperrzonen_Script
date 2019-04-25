@@ -12,6 +12,6 @@ switch (_msg) do {
 
 */
 
-format["<t align='center' font='PuristaBold' size='2' color='#ff0000'>Sperrzone</t><br/><br/>Die Polizei hat eine Sperrzone errichtet<br/><br/>Position: %1</t>",getMarkerPos "sz_marker%1",'============'], "info",true] remoteExecCall ["life_fnc_broadcast", civilian,independent,west,east]; };
+format["<t align='center' font='PuristaBold' size='2' color='#ff0000'>Sperrzone</t><br/><br/>Die Polizei hat eine Sperrzone errichtet<br/><br/>Position: %1</t>",getMarkerPos "sz_marker%1",'============'] remoteExecCall ["life_fnc_broadcast", civilian,independent,east]; };
 
 
