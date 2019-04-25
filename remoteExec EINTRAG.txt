@@ -1,0 +1,4 @@
+F(life_fnc_sz_create,ANYONE)
+F(life_fnc_sz_msg,ANYONE)
+F(life_fnc_sz_delete,ANYONE)
+F(life_fnc_sz_dialog,ANYONE)
