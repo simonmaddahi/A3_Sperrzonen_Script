@@ -6,7 +6,7 @@ disableSerialization;
 _display = findDisplay 2900;
 _ctrlSperrzonen = _display displayCtrl 2906;
 _selected = lbCurSel _ctrlSperrzonen;
-if(_selected isEqualTo -1) exitWith {hint "Du musst erst eine Sperrzone ausw‰hlen!";};
+if(_selected isEqualTo -1) exitWith {hint "Du musst erst eine Sperrzone ausw√§hlen!";};
 
 _posInArray = _ctrlSperrzonen lbValue _selected;
 _markerArray = eM_Sperrzonen select _posInArray;
@@ -22,3 +22,4 @@ publicVariable "NL_Sperrzonen";
 
 closeDialog 0;
 hint "Du hast die Sperrzone entfernt!";
+[1,"NULL"] call life_fnc_sz_msg;
